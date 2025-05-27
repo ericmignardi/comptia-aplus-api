@@ -1,0 +1,716 @@
+[
+  {
+    "question": "What are the main motherboard form factors?",
+    "answer": "ATX, microATX, and ITX form factors",
+    "topic": "Motherboards",
+    "chapter": 1
+  },
+  {
+    "question": "What does the chipset on a motherboard do?",
+    "answer": "It manages data flow between the CPU, memory, and peripherals",
+    "topic": "Motherboards",
+    "chapter": 1
+  },
+  {
+    "question": "What are the main CPU socket types?",
+    "answer": "LGA (Land Grid Array) and PGA (Pin Grid Array)",
+    "topic": "CPU",
+    "chapter": 1
+  },
+  {
+    "question": "What is the difference between cores and threads in a CPU?",
+    "answer": "Cores are physical processing units; threads are virtual processing units that allow multitasking",
+    "topic": "CPU",
+    "chapter": 1
+  },
+  {
+    "question": "What are the three levels of CPU cache?",
+    "answer": "L1 (fastest, smallest), L2 (medium), and L3 (largest, shared among cores)",
+    "topic": "CPU",
+    "chapter": 1
+  },
+  {
+    "question": "What does CPU clock speed measure?",
+    "answer": "The number of cycles per second the CPU can execute, measured in Hz",
+    "topic": "CPU",
+    "chapter": 1
+  },
+  {
+    "question": "What is the difference between DDR3, DDR4, and DDR5 RAM?",
+    "answer": "Each generation offers higher speeds, lower power consumption, and increased capacity",
+    "topic": "RAM",
+    "chapter": 1
+  },
+  {
+    "question": "What is the difference between DIMM and SO-DIMM?",
+    "answer": "DIMM is full-size for desktops; SO-DIMM is smaller for laptops and compact devices",
+    "topic": "RAM",
+    "chapter": 1
+  },
+  {
+    "question": "What is ECC RAM and when is it used?",
+    "answer": "Error-Correcting Code RAM that detects and corrects memory errors; used in servers and critical systems",
+    "topic": "RAM",
+    "chapter": 1
+  },
+  {
+    "question": "What are dual, triple, and quad channel memory configurations?",
+    "answer": "Multiple memory modules working together to increase bandwidth and performance",
+    "topic": "RAM",
+    "chapter": 1
+  },
+  {
+    "question": "What is POST and what does it check?",
+    "answer": "Power-On Self-Test checks CPU, memory, storage, and essential components during boot",
+    "topic": "BIOS/UEFI",
+    "chapter": 1
+  },
+  {
+    "question": "What are the main differences between BIOS and UEFI?",
+    "answer": "UEFI supports GUI interface, secure boot, larger drives, and faster boot times compared to legacy BIOS",
+    "topic": "BIOS/UEFI",
+    "chapter": 1
+  },
+  {
+    "question": "What is secure boot in UEFI?",
+    "answer": "A security feature that ensures only signed bootloaders and OS kernels can run during startup",
+    "topic": "BIOS/UEFI",
+    "chapter": 1
+  },
+  {
+    "question": "How do you access BIOS/UEFI settings?",
+    "answer": "Press specific keys (F2, F12, DEL) during system startup before OS loads",
+    "topic": "BIOS/UEFI",
+    "chapter": 1
+  },
+  {
+    "question": "What is overclocking and what components can be overclocked?",
+    "answer": "Running components beyond rated specifications; CPU, GPU, and RAM can be overclocked",
+    "topic": "Performance",
+    "chapter": 1
+  },
+  {
+    "question": "What is thermal throttling?",
+    "answer": "Automatic reduction of component performance to prevent overheating damage",
+    "topic": "Performance",
+    "chapter": 1
+  },
+  {
+    "question": "What is the purpose of CMOS battery?",
+    "answer": "Maintains BIOS/UEFI settings and system clock when computer is powered off",
+    "topic": "Motherboards",
+    "chapter": 1
+  },
+  {
+    "question": "What are the main power connectors on a motherboard?",
+    "answer": "24-pin ATX main power and 4/8-pin CPU power connectors",
+    "topic": "Motherboards",
+    "chapter": 1
+  },
+  {
+    "question": "What is virtualization technology in CPUs?",
+    "answer": "Hardware support for running multiple operating systems simultaneously",
+    "topic": "CPU",
+    "chapter": 1
+  },
+  {
+    "question": "What is memory timing and latency?",
+    "answer": "Delay measurements between memory operations; lower latency means faster performance",
+    "topic": "RAM",
+    "chapter": 1
+  },
+  {
+    "question": "What are the main types of expansion cards?",
+    "answer": "GPU (graphics), NIC (network), sound cards, and specialized adapter cards",
+    "topic": "Expansion Cards",
+    "chapter": 2
+  },
+  {
+    "question": "What are the different PCIe slot sizes and their uses?",
+    "answer": "x1 (small cards), x4, x8, x16 (graphics cards); larger slots provide more bandwidth",
+    "topic": "Expansion Cards",
+    "chapter": 2
+  },
+  {
+    "question": "What is the difference between HDD and SSD storage?",
+    "answer": "HDD uses magnetic storage with moving parts; SSD uses flash memory with no moving parts",
+    "topic": "Storage Devices",
+    "chapter": 2
+  },
+  {
+    "question": "What is NVMe and how does it differ from SATA?",
+    "answer": "NVMe uses PCIe interface for much faster data transfer compared to SATA's slower interface",
+    "topic": "Storage Devices",
+    "chapter": 2
+  },
+  {
+    "question": "What are hybrid drives?",
+    "answer": "Storage devices combining HDD capacity with SSD cache for improved performance",
+    "topic": "Storage Devices",
+    "chapter": 2
+  },
+  {
+    "question": "What is RAID 0 and its characteristics?",
+    "answer": "Disk striping that improves performance but offers no fault tolerance",
+    "topic": "RAID Types",
+    "chapter": 2
+  },
+  {
+    "question": "What is RAID 1 and how does it work?",
+    "answer": "Disk mirroring that creates exact copies on two drives for fault tolerance",
+    "topic": "RAID Types",
+    "chapter": 2
+  },
+  {
+    "question": "What is RAID 5 and its benefits?",
+    "answer": "Striping with parity across three or more drives; offers fault tolerance with efficient storage",
+    "topic": "RAID Types",
+    "chapter": 2
+  },
+  {
+    "question": "What is RAID 10 and when is it used?",
+    "answer": "Combines mirroring and striping; provides both performance and fault tolerance",
+    "topic": "RAID Types",
+    "chapter": 2
+  },
+  {
+    "question": "What are the capacities and uses of optical drives?",
+    "answer": "CD (700MB), DVD (4.7GB), Blu-ray (25GB); used for media, backups, and software distribution",
+    "topic": "Optical Drives",
+    "chapter": 2
+  },
+  {
+    "question": "What do power supply wattage ratings indicate?",
+    "answer": "The maximum amount of electrical power the PSU can deliver to system components",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What is the 24-pin main power connector used for?",
+    "answer": "Provides primary power from PSU to motherboard for all basic system functions",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What is the 4/8-pin CPU power connector?",
+    "answer": "Dedicated power connector that provides stable power directly to the CPU",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What are SATA, Molex, and PCIe power connectors used for?",
+    "answer": "SATA (drives), Molex (fans/older drives), PCIe (graphics cards and expansion cards)",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What are the standard PSU voltage outputs?",
+    "answer": "+12V (CPU, fans), +5V (logic circuits), +3.3V (memory, chipsets), -12V (legacy)",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What is 80 Plus certification for power supplies?",
+    "answer": "Efficiency rating system ensuring PSUs convert AC to DC power with minimal waste",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What is modular vs non-modular power supply?",
+    "answer": "Modular allows removable cables for better airflow; non-modular has fixed cables",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What factors determine required PSU wattage?",
+    "answer": "CPU power consumption, GPU requirements, number of drives, and future upgrade plans",
+    "topic": "Power Supplies",
+    "chapter": 2
+  },
+  {
+    "question": "What is the difference between dedicated and integrated graphics?",
+    "answer": "Dedicated uses separate GPU card; integrated is built into CPU/motherboard",
+    "topic": "Expansion Cards",
+    "chapter": 2
+  },
+  {
+    "question": "What is hot-swapping in storage devices?",
+    "answer": "Ability to remove and replace drives while system is running without shutdown",
+    "topic": "Storage Devices",
+    "chapter": 2
+  },
+  {
+    "question": "What are the main input device types?",
+    "answer": "Keyboard, mouse, barcode scanners, and biometric devices (fingerprint, retina)",
+    "topic": "Input Devices",
+    "chapter": 3
+  },
+  {
+    "question": "What are the main output device types?",
+    "answer": "Monitors, speakers, and printers for visual, audio, and hard copy output",
+    "topic": "Output Devices",
+    "chapter": 3
+  },
+  {
+    "question": "What is the difference between USB 2.0, 3.0, and 3.1?",
+    "answer": "USB 2.0 (480 Mbps), USB 3.0 (5 Gbps), USB 3.1 (10 Gbps) with increasing speeds",
+    "topic": "USB Standards",
+    "chapter": 3
+  },
+  {
+    "question": "What are the advantages of USB-C?",
+    "answer": "Reversible connector, higher power delivery, faster data transfer, and video support",
+    "topic": "USB Standards",
+    "chapter": 3
+  },
+  {
+    "question": "What is Thunderbolt and its capabilities?",
+    "answer": "High-speed interface combining data, video, and power in single connection up to 40 Gbps",
+    "topic": "Thunderbolt",
+    "chapter": 3
+  },
+  {
+    "question": "What are the different video connector types?",
+    "answer": "HDMI, DisplayPort, VGA (analog), and DVI (digital/analog)",
+    "topic": "Video Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What is the difference between HDMI and DisplayPort?",
+    "answer": "Both carry digital video/audio; DisplayPort supports higher resolutions and refresh rates",
+    "topic": "Video Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What is VGA and why is it considered legacy?",
+    "answer": "Analog video connector with lower resolution support compared to modern digital connectors",
+    "topic": "Video Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What is RJ-45 connector used for?",
+    "answer": "Ethernet networking connections using twisted pair cables",
+    "topic": "Network Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What is RJ-11 connector used for?",
+    "answer": "Phone line connections and dial-up modem connections",
+    "topic": "Network Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What is the 3.5mm audio connector used for?",
+    "answer": "Standard audio jack for headphones, speakers, and microphones",
+    "topic": "Audio Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What are Molex connectors used for?",
+    "answer": "Legacy power connectors for fans, older hard drives, and optical drives",
+    "topic": "Power Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What are SATA power connectors used for?",
+    "answer": "Power connections for modern SATA hard drives and SSDs",
+    "topic": "Power Connectors",
+    "chapter": 3
+  },
+  {
+    "question": "What is cable management and why is it important?",
+    "answer": "Organizing cables for better airflow, easier maintenance, and professional appearance",
+    "topic": "Cable Management",
+    "chapter": 3
+  },
+  {
+    "question": "What are KVM switches?",
+    "answer": "Devices allowing one keyboard, video, mouse to control multiple computers",
+    "topic": "Peripherals",
+    "chapter": 3
+  },
+  {
+    "question": "What is the difference between active and passive cables?",
+    "answer": "Active cables have electronics to boost signals; passive are simple conductors",
+    "topic": "Cable Types",
+    "chapter": 3
+  },
+  {
+    "question": "What are USB hubs and their limitations?",
+    "answer": "Devices that expand USB ports; limited by total bandwidth and power delivery",
+    "topic": "USB Devices",
+    "chapter": 3
+  },
+  {
+    "question": "What are adapters and converters used for?",
+    "answer": "Converting between different connector types or signal formats",
+    "topic": "Adapters",
+    "chapter": 3
+  },
+  {
+    "question": "What is Power over Ethernet (PoE)?",
+    "answer": "Technology delivering electrical power over Ethernet cables to network devices",
+    "topic": "Network Power",
+    "chapter": 3
+  },
+  {
+    "question": "What are the different types of printers?",
+    "answer": "Impact (dot matrix), inkjet, laser, thermal, and 3D printers",
+    "topic": "Printer Types",
+    "chapter": 4
+  },
+  {
+    "question": "How does an impact printer work?",
+    "answer": "Uses pins or hammers to strike ribbon against paper, creating characters",
+    "topic": "Impact Printers",
+    "chapter": 4
+  },
+  {
+    "question": "How does an inkjet printer work?",
+    "answer": "Sprays liquid ink droplets onto paper through tiny nozzles in print head",
+    "topic": "Inkjet Printers",
+    "chapter": 4
+  },
+  {
+    "question": "How does a laser printer work?",
+    "answer": "Uses laser to create electrostatic image attracting toner to paper, then fused with heat",
+    "topic": "Laser Printers",
+    "chapter": 4
+  },
+  {
+    "question": "How do thermal printers work?",
+    "answer": "Use heat to create images on special heat-sensitive paper",
+    "topic": "Thermal Printers",
+    "chapter": 4
+  },
+  {
+    "question": "What are 3D printers and their basic operation?",
+    "answer": "Additive manufacturing creating objects layer by layer from digital models",
+    "topic": "3D Printers",
+    "chapter": 4
+  },
+  {
+    "question": "What are the main laser printer components?",
+    "answer": "Toner cartridge, drum unit, fuser, and various rollers",
+    "topic": "Printer Components",
+    "chapter": 4
+  },
+  {
+    "question": "What does the toner cartridge contain?",
+    "answer": "Powdered toner (ink) used to create printed images and text",
+    "topic": "Printer Components",
+    "chapter": 4
+  },
+  {
+    "question": "What is the function of the drum unit?",
+    "answer": "Photosensitive component that receives laser image and attracts toner",
+    "topic": "Printer Components",
+    "chapter": 4
+  },
+  {
+    "question": "What does the fuser do in a laser printer?",
+    "answer": "Uses heat and pressure to permanently bond toner to paper",
+    "topic": "Printer Components",
+    "chapter": 4
+  },
+  {
+    "question": "What are the different printer connection methods?",
+    "answer": "USB (direct), network (Ethernet/Wi-Fi), and parallel (legacy)",
+    "topic": "Printer Installation",
+    "chapter": 4
+  },
+  {
+    "question": "What are printer drivers and why are they needed?",
+    "answer": "Software that enables communication between operating system and printer",
+    "topic": "Printer Installation",
+    "chapter": 4
+  },
+  {
+    "question": "What is printer port configuration?",
+    "answer": "Setting up communication pathway between computer and printer (USB, IP address)",
+    "topic": "Printer Installation",
+    "chapter": 4
+  },
+  {
+    "question": "What are common printer maintenance tasks?",
+    "answer": "Cleaning print heads, replacing cartridges, clearing paper jams, and calibration",
+    "topic": "Printer Maintenance",
+    "chapter": 4
+  },
+  {
+    "question": "How do you replace printer cartridges safely?",
+    "answer": "Power off printer, follow manufacturer instructions, handle cartridges carefully to avoid spills",
+    "topic": "Printer Maintenance",
+    "chapter": 4
+  },
+  {
+    "question": "What causes paper jams and how to clear them?",
+    "answer": "Improper paper loading, worn rollers; clear by following paper path and removing gently",
+    "topic": "Printer Maintenance",
+    "chapter": 4
+  },
+  {
+    "question": "What is printer calibration?",
+    "answer": "Adjusting printer settings for accurate colors, alignment, and print quality",
+    "topic": "Printer Maintenance",
+    "chapter": 4
+  },
+  {
+    "question": "What are multifunction devices?",
+    "answer": "Devices combining printing, scanning, copying, and sometimes faxing capabilities",
+    "topic": "Multifunction Devices",
+    "chapter": 4
+  },
+  {
+    "question": "What is duplex printing?",
+    "answer": "Automatic double-sided printing to save paper and reduce costs",
+    "topic": "Printer Features",
+    "chapter": 4
+  },
+  {
+    "question": "What are print queues and spooling?",
+    "answer": "System managing print jobs by storing them temporarily before sending to printer",
+    "topic": "Print Management",
+    "chapter": 4
+  },
+  {
+    "question": "What are the different network types?",
+    "answer": "LAN (Local), WAN (Wide), PAN (Personal), and MAN (Metropolitan Area Networks)",
+    "topic": "Network Types",
+    "chapter": 5
+  },
+  {
+    "question": "What are the different types of network cabling?",
+    "answer": "Twisted pair (Cat5e, Cat6, Cat6a), fiber optic, and coaxial cables",
+    "topic": "Network Cabling",
+    "chapter": 5
+  },
+  {
+    "question": "What is the difference between Cat5e, Cat6, and Cat6a cables?",
+    "answer": "Increasing bandwidth and performance: Cat5e (1 Gbps), Cat6 (10 Gbps/55m), Cat6a (10 Gbps/100m)",
+    "topic": "Twisted Pair",
+    "chapter": 5
+  },
+  {
+    "question": "What are the advantages of fiber optic cables?",
+    "answer": "Higher bandwidth, longer distances, immunity to electromagnetic interference",
+    "topic": "Fiber Optic",
+    "chapter": 5
+  },
+  {
+    "question": "What is coaxial cable and its uses?",
+    "answer": "Cable with central conductor and shield; used for cable TV and some network connections",
+    "topic": "Coaxial",
+    "chapter": 5
+  },
+  {
+    "question": "What are the different fiber optic connectors?",
+    "answer": "LC (small form factor), ST (bayonet), and SC (square) connectors",
+    "topic": "Fiber Connectors",
+    "chapter": 5
+  },
+  {
+    "question": "What is RJ-45 connector and its wiring?",
+    "answer": "8-pin connector for Ethernet using T568A or T568B wiring standards",
+    "topic": "Ethernet Connectors",
+    "chapter": 5
+  },
+  {
+    "question": "What are the main network devices and their functions?",
+    "answer": "Switch (connects devices), router (routes between networks), modem (converts signals)",
+    "topic": "Network Devices",
+    "chapter": 5
+  },
+  {
+    "question": "What is an access point?",
+    "answer": "Device that provides wireless network access and connects Wi-Fi devices to wired network",
+    "topic": "Network Devices",
+    "chapter": 5
+  },
+  {
+    "question": "What is a firewall and its purpose?",
+    "answer": "Security device that filters network traffic based on predetermined rules",
+    "topic": "Network Devices",
+    "chapter": 5
+  },
+  {
+    "question": "What are the different network topologies?",
+    "answer": "Star (central hub), mesh (interconnected), bus (single cable), ring (circular)",
+    "topic": "Network Topologies",
+    "chapter": 5
+  },
+  {
+    "question": "What is a cable tester and its use?",
+    "answer": "Tool that verifies cable continuity, proper wiring, and identifies cable faults",
+    "topic": "Network Tools",
+    "chapter": 5
+  },
+  {
+    "question": "What is a toner probe used for?",
+    "answer": "Tool for tracing and identifying specific cables in cable bundles",
+    "topic": "Network Tools",
+    "chapter": 5
+  },
+  {
+    "question": "What is a loopback plug?",
+    "answer": "Testing device that connects output back to input for network port testing",
+    "topic": "Network Tools",
+    "chapter": 5
+  },
+  {
+    "question": "What is a crimper tool used for?",
+    "answer": "Tool for attaching connectors to network cables (RJ-45, RJ-11)",
+    "topic": "Network Tools",
+    "chapter": 5
+  },
+  {
+    "question": "What is the difference between straight-through and crossover cables?",
+    "answer": "Straight-through connects different devices; crossover connects similar devices (mostly obsolete)",
+    "topic": "Cable Types",
+    "chapter": 5
+  },
+  {
+    "question": "What is PoE (Power over Ethernet)?",
+    "answer": "Technology delivering power over Ethernet cables to devices like IP phones and cameras",
+    "topic": "PoE",
+    "chapter": 5
+  },
+  {
+    "question": "What are the maximum cable lengths for different types?",
+    "answer": "Ethernet twisted pair: 100m, Fiber: kilometers, Coaxial: varies by type",
+    "topic": "Cable Specifications",
+    "chapter": 5
+  },
+  {
+    "question": "What is structured cabling?",
+    "answer": "Standardized approach to network cabling infrastructure in buildings",
+    "topic": "Cabling Standards",
+    "chapter": 5
+  },
+  {
+    "question": "What are patch panels used for?",
+    "answer": "Central connection points for organizing and managing network cable connections",
+    "topic": "Network Infrastructure",
+    "chapter": 5
+  },
+  {
+    "question": "What are the four layers of the TCP/IP model?",
+    "answer": "Application, Transport, Internet, and Network Interface layers",
+    "topic": "TCP/IP Model",
+    "chapter": 6
+  },
+  {
+    "question": "What are the three classes of IPv4 addresses?",
+    "answer": "Class A (1-126), Class B (128-191), Class C (192-223) with different subnet masks",
+    "topic": "IP Addressing",
+    "chapter": 6
+  },
+  {
+    "question": "What is subnetting and why is it used?",
+    "answer": "Dividing IP networks into smaller subnetworks for better organization and security",
+    "topic": "Subnetting",
+    "chapter": 6
+  },
+  {
+    "question": "What is the format of IPv6 addresses?",
+    "answer": "128-bit addresses written in hexadecimal with 8 groups separated by colons",
+    "topic": "IPv6",
+    "chapter": 6
+  },
+  {
+    "question": "What is HTTP and its default port?",
+    "answer": "HyperText Transfer Protocol for web communication; uses port 80",
+    "topic": "Network Protocols",
+    "chapter": 6
+  },
+  {
+    "question": "What is HTTPS and how does it differ from HTTP?",
+    "answer": "Secure HTTP using encryption (SSL/TLS); uses port 443",
+    "topic": "Network Protocols",
+    "chapter": 6
+  },
+  {
+    "question": "What is FTP and its purpose?",
+    "answer": "File Transfer Protocol for uploading/downloading files; uses ports 20 and 21",
+    "topic": "Network Protocols",
+    "chapter": 6
+  },
+  {
+    "question": "What is SMTP and its function?",
+    "answer": "Simple Mail Transfer Protocol for sending email; uses port 25",
+    "topic": "Email Protocols",
+    "chapter": 6
+  },
+  {
+    "question": "What are POP3 and IMAP for email?",
+    "answer": "POP3 downloads email to device; IMAP keeps email on server for multi-device access",
+    "topic": "Email Protocols",
+    "chapter": 6
+  },
+  {
+    "question": "What is DNS and its function?",
+    "answer": "Domain Name System translates domain names to IP addresses; uses port 53",
+    "topic": "Network Services",
+    "chapter": 6
+  },
+  {
+    "question": "What is DHCP and what does it provide?",
+    "answer": "Dynamic Host Configuration Protocol automatically assigns IP addresses and network settings",
+    "topic": "Network Services",
+    "chapter": 6
+  },
+  {
+    "question": "What is SSH and its security benefits?",
+    "answer": "Secure Shell provides encrypted remote access and command execution; uses port 22",
+    "topic": "Remote Access",
+    "chapter": 6
+  },
+  {
+    "question": "What is Telnet and why is it insecure?",
+    "answer": "Remote terminal access protocol that sends data in plain text; uses port 23",
+    "topic": "Remote Access",
+    "chapter": 6
+  },
+  {
+    "question": "What are well-known ports and their range?",
+    "answer": "Ports 0-1023 reserved for common services like HTTP (80), HTTPS (443), SMTP (25)",
+    "topic": "Port Numbers",
+    "chapter": 6
+  },
+  {
+    "question": "What do subnet masks define?",
+    "answer": "Which portion of IP address identifies the network vs host portions",
+    "topic": "Subnet Masks",
+    "chapter": 6
+  },
+  {
+    "question": "What is the default subnet mask for Class A networks?",
+    "answer": "255.0.0.0 or /8 in CIDR notation",
+    "topic": "Subnet Masks",
+    "chapter": 6
+  },
+  {
+    "question": "What is the default subnet mask for Class B networks?",
+    "answer": "255.255.0.0 or /16 in CIDR notation",
+    "topic": "Subnet Masks",
+    "chapter": 6
+  },
+  {
+    "question": "What is the default subnet mask for Class C networks?",
+    "answer": "255.255.255.0 or /24 in CIDR notation",
+    "topic": "Subnet Masks",
+    "chapter": 6
+  },
+  {
+    "question": "What is CIDR notation?",
+    "answer": "Classless Inter-Domain Routing notation showing network bits (e.g., /24)",
+    "topic": "IP Addressing",
+    "chapter": 6
+  },
+  {
+    "question": "What are private IP address ranges?",
+    "answer": "10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16 for internal networks",
+    "topic": "IP Addressing",
+    "chapter": 6
+  }
+]
