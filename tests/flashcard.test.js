@@ -7,7 +7,6 @@ beforeAll(async () => {
 });
 
 afterAll(async () => {
-  await mongoose.connection.dropDatabase(); // optional: clean up test DB
   await mongoose.disconnect();
 });
 
@@ -27,12 +26,10 @@ describe("Flashcards API", () => {
       topic: "Networking",
       chapter: "Chapter 1",
     };
-
     const res = await request(app).post("/api/flashcards").send(newFlashcard);
     expect(res.statusCode).toBe(201);
     expect(res.body).toMatchObject(newFlashcard);
     expect(res.body).toHaveProperty("_id");
-
     createdId = res.body._id; // Save for later tests
   });
 
@@ -49,7 +46,6 @@ describe("Flashcards API", () => {
       topic: "Updated topic",
       chapter: "Updated chapter",
     };
-
     const res = await request(app)
       .put(`/api/flashcards/${createdId}`)
       .send(updatedFlashcard);

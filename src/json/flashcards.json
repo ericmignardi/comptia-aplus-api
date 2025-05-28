@@ -712,5 +712,599 @@
     "answer": "10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16 for internal networks",
     "topic": "IP Addressing",
     "chapter": 6
+  },
+  {
+    "question": "What is DHCP and what is its primary function?",
+    "answer": "DHCP (Dynamic Host Configuration Protocol) is a network service that automatically assigns IP addresses, subnet masks, default gateways, and DNS server information to devices on a network. It eliminates the need for manual IP configuration and prevents IP address conflicts.",
+    "topic": "Network Services",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the three main cloud computing service models?",
+    "answer": "The three main cloud computing service models are: IaaS (Infrastructure as a Service) - provides virtualized computing resources; PaaS (Platform as a Service) - provides development platforms and tools; SaaS (Software as a Service) - provides complete applications over the internet.",
+    "topic": "Cloud Computing",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is the difference between Type 1 and Type 2 hypervisors?",
+    "answer": "Type 1 hypervisors (bare-metal) run directly on the physical hardware without a host operating system, offering better performance and security. Type 2 hypervisors run on top of a host operating system, making them easier to install but with slightly reduced performance.",
+    "topic": "Virtualization",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the main benefits of virtualization?",
+    "answer": "Benefits of virtualization include: resource optimization, cost reduction, easier backup and disaster recovery, improved scalability, simplified testing environments, reduced physical hardware requirements, and enhanced security through isolation.",
+    "topic": "Virtualization",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is a VPN and how does it work?",
+    "answer": "A VPN (Virtual Private Network) creates a secure, encrypted tunnel between a user's device and a remote server, allowing secure access to private networks over the internet. It masks the user's IP address and encrypts data transmission.",
+    "topic": "Network Services",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the key security considerations for cloud storage?",
+    "answer": "Key security considerations include: data encryption (in transit and at rest), access controls and authentication, compliance with regulations, data location and sovereignty, backup and recovery procedures, and vendor security practices.",
+    "topic": "Cloud Storage & Backup",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is a proxy server and what are its benefits?",
+    "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses. Benefits include: improved security, content filtering, bandwidth savings through caching, anonymous browsing, and access control.",
+    "topic": "Network Services",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the main advantages of cloud storage?",
+    "answer": "Cloud storage advantages include: accessibility from anywhere with internet, automatic synchronization across devices, reduced local storage requirements, built-in backup and redundancy, scalability, cost-effectiveness, and collaborative sharing capabilities.",
+    "topic": "Cloud Storage & Backup",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is DNS and what role does it play in networking?",
+    "answer": "DNS (Domain Name System) translates human-readable domain names into IP addresses that computers use to communicate. It acts as the internet's phone book, allowing users to access websites using names instead of numerical IP addresses.",
+    "topic": "Network Services",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is FTP and what are its common uses?",
+    "answer": "FTP (File Transfer Protocol) is used to transfer files between computers over a network. Common uses include website maintenance, software distribution, backup operations, and sharing large files between remote locations.",
+    "topic": "Network Services",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is HTTP and how does it work?",
+    "answer": "HTTP (Hypertext Transfer Protocol) is the protocol used for transmitting web pages and data over the internet. It works on a request-response model where clients (browsers) send requests to servers, which respond with the requested content.",
+    "topic": "Network Services",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are virtual machines and their primary uses?",
+    "answer": "Virtual machines are software-based computers that run on physical hardware through a hypervisor. Primary uses include server consolidation, testing environments, running multiple operating systems, sandboxing applications, and disaster recovery.",
+    "topic": "Virtualization",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is IaaS and what services does it typically provide?",
+    "answer": "IaaS (Infrastructure as a Service) provides virtualized computing resources over the internet. Services typically include virtual machines, storage, networks, load balancers, and other fundamental computing resources that users can provision and manage.",
+    "topic": "Cloud Computing",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is PaaS and who typically uses it?",
+    "answer": "PaaS (Platform as a Service) provides a complete development and deployment environment in the cloud. It's typically used by developers who want to build applications without managing underlying infrastructure, including databases, development tools, and runtime environments.",
+    "topic": "Cloud Computing",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What is SaaS and what are common examples?",
+    "answer": "SaaS (Software as a Service) delivers complete applications over the internet on a subscription basis. Common examples include Gmail, Microsoft 365, Salesforce, Dropbox, and Adobe Creative Cloud. Users access these applications through web browsers.",
+    "topic": "Cloud Computing",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the cost benefits of cloud computing?",
+    "answer": "Cloud computing cost benefits include: reduced capital expenses (no hardware purchases), pay-as-you-use pricing models, eliminated maintenance costs, reduced IT staffing needs, automatic scaling to avoid over-provisioning, and lower energy costs.",
+    "topic": "Cloud Computing",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the main components of virtualization architecture?",
+    "answer": "Main virtualization components include: physical hardware (host), hypervisor (virtualization layer), virtual machines (guests), virtual hardware (CPU, memory, storage, network), and management tools for provisioning and monitoring VMs.",
+    "topic": "Virtualization",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What backup strategies are enhanced by cloud computing?",
+    "answer": "Cloud-enhanced backup strategies include: automated offsite backups, geo-redundant storage across multiple data centers, incremental and differential backup capabilities, point-in-time recovery, disaster recovery as a service, and hybrid cloud backup solutions.",
+    "topic": "Cloud Storage & Backup",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What network protocols are commonly used with VPNs?",
+    "answer": "Common VPN protocols include: OpenVPN (open-source, highly secure), IPSec (Internet Protocol Security), L2TP (Layer 2 Tunneling Protocol), PPTP (Point-to-Point Tunneling Protocol), and WireGuard (modern, lightweight protocol).",
+    "topic": "Network Services",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the disadvantages of cloud computing?",
+    "answer": "Cloud computing disadvantages include: dependency on internet connectivity, potential security and privacy concerns, limited control over infrastructure, possible vendor lock-in, ongoing subscription costs, and compliance challenges for regulated industries.",
+    "topic": "Cloud Computing",
+    "chapter": "Chapter 8"
+  },
+  {
+    "question": "What are the main components of a laptop display system?",
+    "answer": "Main laptop display components include: LCD/LED panel, backlight (LED or CCFL), inverter (for older displays), display cable/connector, hinges, and webcam (often integrated into the display bezel).",
+    "topic": "Laptop Components",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What types of sensors are commonly found in mobile devices?",
+    "answer": "Common mobile device sensors include: accelerometers (detect orientation and movement), gyroscopes (measure rotation), magnetometers (compass), proximity sensors, ambient light sensors, GPS receivers, and fingerprint sensors.",
+    "topic": "Mobile Devices",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What are the advantages of Li-ion batteries in mobile devices?",
+    "answer": "Li-ion battery advantages include: high energy density, low self-discharge rate, no memory effect, lightweight design, rechargeable capability, and relatively long lifespan compared to other battery types.",
+    "topic": "Power",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What is USB-C and what are its advantages?",
+    "answer": "USB-C is a reversible connector standard that supports high-speed data transfer, video output, and power delivery up to 100W. Advantages include: single cable for multiple functions, reversible design, faster charging, and universal compatibility across devices.",
+    "topic": "Ports",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What are the key features of laptop keyboards compared to desktop keyboards?",
+    "answer": "Laptop keyboards feature: compact layout with function key combinations, membrane or scissor-switch mechanisms, integrated touchpad nearby, backlit keys (on many models), and specialized keys for laptop functions like brightness and volume control.",
+    "topic": "Laptop Components",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What are wearable devices and their common features?",
+    "answer": "Wearable devices include smartwatches, fitness trackers, and smart glasses. Common features include: health monitoring sensors, wireless connectivity, compact batteries, touchscreen interfaces, voice control, and synchronization with smartphones.",
+    "topic": "Mobile Devices",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What is a touchscreen and what are the main types?",
+    "answer": "A touchscreen is an input device that detects touch gestures on a display surface. Main types include: resistive (pressure-sensitive), capacitive (electrical conductivity), infrared (light beam interruption), and surface acoustic wave (sound wave technology).",
+    "topic": "Input Devices",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What charging methods are used for mobile devices?",
+    "answer": "Mobile device charging methods include: wired charging via USB cables, wireless charging (Qi standard), fast charging protocols (Quick Charge, Power Delivery), solar charging, and proprietary charging docks or cables.",
+    "topic": "Power",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What is the Lightning connector and which devices use it?",
+    "answer": "Lightning is Apple's proprietary connector introduced in 2012, featuring a reversible 8-pin design. It's used on iPhones, iPads, AirPods, and some other Apple accessories for charging and data transfer.",
+    "topic": "Ports",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What are the differences between tablets and smartphones in terms of hardware?",
+    "answer": "Hardware differences include: screen size (tablets 7-13 inches vs smartphones 4-7 inches), battery capacity (tablets larger), processing power (tablets often more powerful), camera systems (smartphones typically better), and cellular connectivity (not all tablets have cellular).",
+    "topic": "Mobile Devices",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What functions do accelerometers serve in mobile devices?",
+    "answer": "Accelerometers detect device movement and orientation changes, enabling features like: screen rotation, shake gestures, step counting in fitness apps, gaming controls, image stabilization, and automatic screen wake/sleep functions.",
+    "topic": "Input Devices",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What are gyroscopes used for in mobile devices?",
+    "answer": "Gyroscopes measure rotational movement and angular velocity, providing precise orientation data for: enhanced gaming experiences, camera stabilization, augmented reality applications, navigation improvements, and more accurate motion sensing.",
+    "topic": "Input Devices",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What components make up a laptop's trackpad system?",
+    "answer": "Laptop trackpad components include: touch-sensitive surface, controller chip for gesture recognition, physical or virtual buttons, palm rejection technology, and drivers for multi-touch gestures and scrolling functions.",
+    "topic": "Laptop Components",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What factors affect mobile device battery life?",
+    "answer": "Battery life factors include: screen brightness and usage time, background app activity, wireless connectivity (Wi-Fi, cellular, Bluetooth), processor usage, battery age and health, temperature conditions, and power management settings.",
+    "topic": "Power",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What are proprietary chargers and why are they used?",
+    "answer": "Proprietary chargers are manufacturer-specific charging solutions designed for particular devices. They're used for: optimized charging protocols, unique form factors, brand differentiation, additional functionality integration, and sometimes to generate accessory revenue.",
+    "topic": "Ports",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What is a laptop webcam and what are its typical specifications?",
+    "answer": "A laptop webcam is an integrated camera typically located above the display. Common specifications include: 720p or 1080p resolution, fixed focus lens, built-in microphone, privacy shutter (on newer models), and USB connectivity to the motherboard.",
+    "topic": "Laptop Components",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What are the key differences between LCD and LED displays?",
+    "answer": "LED displays are actually LCD displays with LED backlighting instead of CCFL. Key differences include: LED displays are thinner, more energy-efficient, provide better color accuracy, have longer lifespan, generate less heat, and offer better brightness control.",
+    "topic": "Laptop Components",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What security features are built into modern mobile devices?",
+    "answer": "Modern mobile security features include: fingerprint scanners, facial recognition, encrypted storage, secure boot processes, app sandboxing, biometric authentication, remote wipe capabilities, and hardware security modules.",
+    "topic": "Mobile Devices",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What wireless charging standards exist for mobile devices?",
+    "answer": "Main wireless charging standards include: Qi (most common, up to 15W), PMA (Power Matters Alliance), AirFuel (merger of PMA and A4WP), and proprietary fast wireless charging solutions from manufacturers like Samsung and Apple.",
+    "topic": "Power",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What maintenance considerations exist for laptop batteries?",
+    "answer": "Laptop battery maintenance includes: avoiding extreme temperatures, not leaving plugged in constantly, calibrating periodically, using power management settings, storing at 50% charge if unused long-term, and recognizing signs of battery degradation.",
+    "topic": "Power",
+    "chapter": "Chapter 9"
+  },
+  {
+    "question": "What is the difference between GSM and CDMA?",
+    "answer": "GSM (Global System for Mobile) uses SIM cards and time-division multiple access, allowing easy device switching. CDMA (Code Division Multiple Access) uses unique codes for each user and traditionally didn't use SIM cards, though modern CDMA devices often do.",
+    "topic": "Mobile Networks",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What are the key features of 5G technology?",
+    "answer": "5G features include: significantly faster data speeds (up to 20 Gbps), ultra-low latency (under 1ms), massive device connectivity, network slicing capabilities, improved energy efficiency, and enhanced mobile broadband experiences.",
+    "topic": "Mobile Networks",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What is NFC and what are its common uses?",
+    "answer": "NFC (Near Field Communication) is a short-range wireless technology that enables communication between devices within 4cm. Common uses include mobile payments, data sharing, device pairing, smart tags, and access control systems.",
+    "topic": "Connectivity Options",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What is mobile device tethering?",
+    "answer": "Tethering allows a mobile device to share its internet connection with other devices through Wi-Fi hotspot, USB, or Bluetooth connection. This enables laptops and other devices to access the internet using the mobile device's cellular data connection.",
+    "topic": "Connectivity Options",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What are mobile app permissions and why are they important?",
+    "answer": "App permissions control what device resources and data an app can access, such as camera, microphone, location, contacts, and storage. They're important for privacy and security, allowing users to control what information apps can access.",
+    "topic": "Mobile Apps",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What are common mobile device synchronization services?",
+    "answer": "Common sync services include: cloud storage (iCloud, Google Drive, OneDrive), email synchronization (IMAP, Exchange), calendar syncing, contact synchronization, photo backup, and app data synchronization across devices.",
+    "topic": "Synchronization",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What is airplane mode and when should it be used?",
+    "answer": "Airplane mode disables all wireless communications (cellular, Wi-Fi, Bluetooth) on a device. It should be used during flights as required by aviation regulations, to conserve battery life, or to avoid roaming charges while traveling internationally.",
+    "topic": "Connectivity Options",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What are common mobile device battery life troubleshooting steps?",
+    "answer": "Battery troubleshooting steps include: checking for battery-draining apps, reducing screen brightness, disabling unnecessary features, updating the OS, calibrating the battery, checking for hardware issues, and considering battery replacement if it's old.",
+    "topic": "Troubleshooting",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What is LTE and how does it differ from previous mobile technologies?",
+    "answer": "LTE (Long Term Evolution) is a 4G wireless standard offering significantly faster data speeds than 3G, lower latency, better spectrum efficiency, and improved voice quality through VoLTE (Voice over LTE) technology.",
+    "topic": "Mobile Networks",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What are the different types of mobile app installations?",
+    "answer": "Mobile app installation types include: app store downloads (official stores), sideloading (installing from APK/IPA files), enterprise app deployment, web-based progressive web apps, and pre-installed system applications.",
+    "topic": "Mobile Apps",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "How do mobile devices handle app updates?",
+    "answer": "Mobile app updates are handled through: automatic updates via app stores, manual updates by user selection, beta testing programs, over-the-air system updates, and enterprise mobile device management systems for business deployments.",
+    "topic": "Mobile Apps",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What Wi-Fi standards are commonly supported by mobile devices?",
+    "answer": "Common Wi-Fi standards in mobile devices include: 802.11n (2.4/5GHz), 802.11ac (5GHz, faster speeds), 802.11ax (Wi-Fi 6, latest standard with improved efficiency), and backwards compatibility with older standards like 802.11g.",
+    "topic": "Connectivity Options",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What Bluetooth versions are found in modern mobile devices?",
+    "answer": "Modern mobile devices typically support: Bluetooth 5.0 or newer (extended range, lower power), Bluetooth Low Energy (BLE) for fitness trackers and IoT devices, and backwards compatibility with older Bluetooth versions for legacy accessories.",
+    "topic": "Connectivity Options",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What causes mobile app crashes and how can they be resolved?",
+    "answer": "App crashes can be caused by: insufficient memory, software bugs, OS compatibility issues, corrupted app data, or hardware problems. Solutions include: restarting the app, clearing app cache/data, updating the app, restarting the device, or reinstalling the app.",
+    "topic": "Troubleshooting",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What are mobile connectivity troubleshooting steps?",
+    "answer": "Connectivity troubleshooting includes: checking airplane mode, verifying network settings, restarting network services, forgetting and reconnecting to Wi-Fi, checking cellular signal strength, updating carrier settings, and resetting network settings.",
+    "topic": "Troubleshooting",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What synchronization issues can occur with mobile devices?",
+    "answer": "Common sync issues include: authentication failures, network connectivity problems, storage space limitations, conflicting data entries, outdated app versions, server outages, and account permission restrictions.",
+    "topic": "Synchronization",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What security considerations exist for mobile device connectivity?",
+    "answer": "Mobile connectivity security considerations include: avoiding unsecured public Wi-Fi, using VPNs for protection, keeping Bluetooth discoverable mode off when not needed, verifying app permissions, and enabling automatic security updates.",
+    "topic": "Connectivity Options",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What email synchronization protocols are used by mobile devices?",
+    "answer": "Mobile email sync protocols include: IMAP (Internet Message Access Protocol) for server-based email, POP3 (Post Office Protocol) for download-based email, Exchange ActiveSync for Microsoft environments, and proprietary protocols for services like Gmail.",
+    "topic": "Synchronization",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What mobile device management features help with troubleshooting?",
+    "answer": "Mobile device management features include: remote diagnostics, app deployment and removal, configuration profile management, device location tracking, remote wipe capabilities, and centralized troubleshooting tools for enterprise environments.",
+    "topic": "Troubleshooting",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "How do mobile devices handle background app management?",
+    "answer": "Background app management includes: app background refresh settings, battery optimization features, CPU and memory allocation limits, network usage controls, and automatic app suspension to conserve resources and battery life.",
+    "topic": "Mobile Apps",
+    "chapter": "Chapter 10"
+  },
+  {
+    "question": "What are the six steps of the troubleshooting methodology?",
+    "answer": "1. Identify the problem, 2. Establish a theory of probable cause, 3. Test the theory to determine the cause, 4. Establish a plan of action and implement the solution, 5. Verify full system functionality, 6. Document findings and solutions.",
+    "topic": "Troubleshooting Steps",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What is a POST card and how is it used?",
+    "answer": "A POST (Power-On Self-Test) card is a diagnostic tool that displays error codes during the boot process. It plugs into a PCI or PCIe slot and shows numeric codes that correspond to specific hardware problems, helping identify boot failures.",
+    "topic": "Tools",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What are loopback plugs used for?",
+    "answer": "Loopback plugs are diagnostic tools that test network ports and serial connections by creating a closed loop. They send signals out of a port and receive them back, verifying that the port's transmit and receive functions are working properly.",
+    "topic": "Tools",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What do different beep codes typically indicate during POST?",
+    "answer": "Beep codes indicate specific hardware problems: single beep usually means normal POST, continuous beeps often indicate power supply issues, three beeps may indicate memory problems, and long/short beep patterns can indicate various component failures. Codes vary by BIOS manufacturer.",
+    "topic": "Common Hardware Issues",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What are common causes of computer overheating?",
+    "answer": "Common overheating causes include: dust buildup blocking airflow, failed cooling fans, thermal paste degradation, blocked vents, high ambient temperature, overclocking, failing power supply, or inadequate cooling system for the hardware configuration.",
+    "topic": "Common Hardware Issues",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What is a multimeter used for in hardware troubleshooting?",
+    "answer": "A multimeter measures electrical properties including voltage, current, and resistance. In hardware troubleshooting, it's used to test power supply voltages, check for short circuits, verify component functionality, and measure electrical continuity.",
+    "topic": "Tools",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What should you do if a computer shows no power symptoms?",
+    "answer": "No power troubleshooting steps: check power cable connections, test the power outlet, verify power supply switch is on, test with known good power cable, check internal power connections, test power supply with multimeter, and consider motherboard issues.",
+    "topic": "Fixes",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What diagnostic software tools are commonly used for hardware troubleshooting?",
+    "answer": "Common diagnostic software includes: memory testers (MemTest86), hard drive utilities (CrystalDiskInfo, HD Tune), CPU stress tests (Prime95), GPU diagnostics (FurMark), system information tools (CPU-Z), and manufacturer-specific diagnostic utilities.",
+    "topic": "Tools",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What are the most common POST error codes and their meanings?",
+    "answer": "Common POST errors include: no beeps (power supply failure), continuous beeps (memory issues), one long/two short beeps (video card problems), one long/three short beeps (keyboard controller failure), and repetitive short beeps (motherboard issues).",
+    "topic": "Common Hardware Issues",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What steps should be taken when components need to be reseated?",
+    "answer": "Component reseating steps: power down and unplug the system, ground yourself properly, carefully remove the component, clean contacts if necessary, inspect for damage, firmly reinstall ensuring proper alignment, and test system functionality.",
+    "topic": "Fixes",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What are the signs that indicate a power supply is failing?",
+    "answer": "Power supply failure signs include: random shutdowns, blue screens, burning smell, unusual noises (whining/grinding), system instability under load, peripherals not receiving power, and voltage readings outside normal ranges.",
+    "topic": "Common Hardware Issues",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "How do you properly document troubleshooting procedures?",
+    "answer": "Proper documentation includes: recording the initial problem description, listing all diagnostic steps taken, noting test results and findings, documenting the final solution implemented, recording any parts replaced, and creating follow-up procedures for prevention.",
+    "topic": "Troubleshooting Steps",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What safety precautions should be taken during hardware troubleshooting?",
+    "answer": "Safety precautions include: powering down and unplugging systems before work, using anti-static wrist straps, working in static-free environments, handling components by edges, avoiding liquid near electronics, and following proper lifting techniques for heavy equipment.",
+    "topic": "Troubleshooting Steps",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What are the common causes of memory-related errors?",
+    "answer": "Memory error causes include: faulty RAM modules, incompatible memory types, improper seating, overheating, power supply issues, motherboard problems, and memory running at incorrect speeds or timings.",
+    "topic": "Common Hardware Issues",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "How do you test for motherboard failures?",
+    "answer": "Motherboard testing involves: visual inspection for damage, POST card diagnostics, testing with minimal components, checking capacitors for swelling, verifying power connections, testing with known good components, and using multimeter for voltage verification.",
+    "topic": "Fixes",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What tools are essential for a hardware technician's toolkit?",
+    "answer": "Essential tools include: screwdriver set (Phillips and flathead), anti-static wrist strap, compressed air, thermal paste, cable ties, multimeter, POST card, loopback plugs, flashlight, and component puller tools.",
+    "topic": "Tools",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What are the proper procedures for replacing faulty hardware components?",
+    "answer": "Replacement procedures: identify the faulty component through testing, power down and disconnect the system, document cable connections, carefully remove the failed component, install the replacement ensuring proper seating, reconnect all cables, and test system functionality.",
+    "topic": "Fixes",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "How do you establish a theory of probable cause during troubleshooting?",
+    "answer": "Establishing theory involves: gathering information about the problem, considering the most likely causes based on symptoms, using experience and knowledge of common failures, consulting documentation, and prioritizing theories from most to least probable.",
+    "topic": "Troubleshooting Steps",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What verification steps should be performed after implementing a solution?",
+    "answer": "Verification steps include: testing the original problem to ensure it's resolved, checking all system functions still work properly, running diagnostic software, testing under normal operating conditions, confirming user satisfaction, and monitoring for recurring issues.",
+    "topic": "Troubleshooting Steps",
+    "chapter": "Chapter 11"
+  },
+  {
+    "question": "What symptom might indicate a failing hard drive?",
+    "answer": "Frequent read/write errors, clicking noises, or system crashes.",
+    "topic": "Storage Issues",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What can cause a hard drive not to be detected by the BIOS?",
+    "answer": "Loose cables, power failure, or incorrect BIOS settings.",
+    "topic": "Storage Issues",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "How can slow hard drive performance be resolved?",
+    "answer": "Defragment the drive, check for malware, or replace with SSD.",
+    "topic": "Storage Issues",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What is a common cause of no video output on boot?",
+    "answer": "Disconnected monitor, bad GPU, or motherboard issues.",
+    "topic": "Video Issues",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What are 'artifacts' on a display and what causes them?",
+    "answer": "Visual distortions often caused by a failing GPU or driver issues.",
+    "topic": "Video Issues",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What hardware issue can cause a GPU to overheat?",
+    "answer": "Poor ventilation, failing fans, or excessive dust buildup.",
+    "topic": "Video Issues",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What is the first step to take when a mobile device won't power on?",
+    "answer": "Check the battery and charge the device.",
+    "topic": "Mobile Device Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "How can you fix a frozen mobile screen?",
+    "answer": "Force restart the device or perform a hard reset.",
+    "topic": "Mobile Device Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What might cause a mobile app to crash repeatedly?",
+    "answer": "Software bugs, insufficient memory, or compatibility issues.",
+    "topic": "Mobile Device Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What is a common cause of paper jams in printers?",
+    "answer": "Misaligned paper, dirty rollers, or worn parts.",
+    "topic": "Printer Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "How can poor print quality be resolved?",
+    "answer": "Clean print heads, check ink/toner levels, or replace cartridges.",
+    "topic": "Printer Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What can cause a printer to be unavailable on the network?",
+    "answer": "Incorrect IP address, network issues, or driver problems.",
+    "topic": "Printer Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "How is the 'ping' command used in network troubleshooting?",
+    "answer": "To test connectivity and response time to another device.",
+    "topic": "Network Troubleshooting",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What does 'ipconfig' help you determine?",
+    "answer": "The IP configuration of a Windows machine.",
+    "topic": "Network Troubleshooting",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What is the purpose of 'traceroute'?",
+    "answer": "To identify the path packets take to a destination.",
+    "topic": "Network Troubleshooting",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "How does a cable tester assist in troubleshooting?",
+    "answer": "It checks for broken or miswired network cables.",
+    "topic": "Network Troubleshooting",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What is an IP conflict and how does it affect the network?",
+    "answer": "When two devices share the same IP, causing connectivity issues.",
+    "topic": "Common Network Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What might cause a slow network connection?",
+    "answer": "High traffic, signal interference, or outdated hardware.",
+    "topic": "Common Network Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "Why would a user experience authentication failures on a network?",
+    "answer": "Incorrect login credentials, account lockout, or server issues.",
+    "topic": "Common Network Problems",
+    "chapter": "Chapter 12"
+  },
+  {
+    "question": "What is the first step in any troubleshooting process?",
+    "answer": "Identify the problem by gathering information.",
+    "topic": "Troubleshooting Methodology",
+    "chapter": "Chapter 12"
   }
 ]
