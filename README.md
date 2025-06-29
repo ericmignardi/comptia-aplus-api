@@ -1,7 +1,6 @@
 📡 API Endpoints
 
-All routes are prefixed with:
-/api/flashcards
+All routes are prefixed with: /api/flashcards
 
 | Method | Endpoint | Description                                    |
 | ------ | -------- | ---------------------------------------------- |
