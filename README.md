@@ -15,8 +15,8 @@ All routes are prefixed with:
 🧪 Sample Flashcard Object
 
 {
-"chapter": 1,
-"question": "What does an SSD use instead of spinning disks?",
-"answer": "NAND-based flash memory",
-"explanation": "Solid State Drives (SSDs) use flash memory, which allows faster access times and improved durability."
+  "chapter": 1,
+  "question": "What does an SSD use instead of spinning disks?",
+  "answer": "NAND-based flash memory",
+  "explanation": "Solid State Drives (SSDs) use flash memory, which allows faster access times and improved durability."
 }
