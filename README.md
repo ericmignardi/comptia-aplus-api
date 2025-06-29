@@ -11,6 +11,7 @@ All routes are prefixed with:
 | PUT    | `/:id`   | Update a flashcard by ID (requires validation) |
 | DELETE | `/:id`   | Delete a flashcard by ID                       |
 
+
 🧪 Sample Flashcard Object
 
 {
