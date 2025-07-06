@@ -1,3 +1,7 @@
+## 🎯 Project Overview
+
+CompTIA A+ (220-1101) Flashcard API
+
 📡 API Endpoints
 
 All routes are prefixed with: /api/flashcards
